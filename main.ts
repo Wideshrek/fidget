@@ -3,7 +3,9 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Yes)
 })
 input.onGesture(Gesture.FreeFall, function () {
-    basic.showString("AHHHH")
+    basic.showString("AHHHH!")
+    basic.showIcon(IconNames.Sad)
+    basic.showString("Wasted")
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showString("Magic Eight MicroBit")
