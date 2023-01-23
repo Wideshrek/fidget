@@ -23,3 +23,6 @@ input.onGesture(Gesture.Shake, function () {
         basic.showString("Maybe")
     }
 })
+input.onSound(DetectedSound.Quiet, function () {
+    basic.showString("I SEE YOU")
+})
